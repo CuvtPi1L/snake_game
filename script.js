@@ -10,6 +10,8 @@ cvs.width = width_cvs
 cvs.height = height_cvs
 // changeable mutiples 
 
-ctx.rect(100,100,100,100)
-ctx.stroke()
 //x,y, width, height
+
+for(let i = 0; i < size_const; i++){
+        ctx.fillRect(unit_length,unit_length, 0, 0)
+}
